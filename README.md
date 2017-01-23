@@ -40,6 +40,7 @@ Available Options
 - `slugOptions` - (Default `{lower: true}`) Pass additional options for slug generation as defined by [`slug`](https://github.com/dodo/node-slug).
 - `overwrite` - (Default `TRUE`) Change the slug if the source fields change once the slug has already been built.
 - `column` - (Default `slug`) Specify which column the slug is to be stored into in the model.
+- `suffixIfExist` = (Default `TRUE`) Add a numerical suffix to the slug if the it already exist
 
 ## Usage Examples
 
